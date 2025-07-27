@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "laptop",
+    "path": "/category/laptop",
+    "icon": "💻"
+  },
+  {
+    "id": 2,
+    "name": "smart-watch",
+    "path": "/category/smart-watch",
+    "icon": "⌚"
+  },
+  {
+    "id": 3,
+    "name": "earphone",
+    "path": "/category/earphone",
+    "icon": "🎧"
+  },
+  {
+    "id": 4,
+    "name": "laptop accessories",
+    "path": "/category/laptop-accessories",
+    "icon": "🧩"
+  },
+  {
+    "id": 5,
+    "name": "phone",
+    "path": "/category/phone",
+    "icon": "📱"
+  }
+]
