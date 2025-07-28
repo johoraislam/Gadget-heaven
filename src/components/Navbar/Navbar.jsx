@@ -1,8 +1,8 @@
 import { Link, NavLink } from "react-router";
 import { FaHeart } from "react-icons/fa";
 import { GrCart } from "react-icons/gr";
-
 const Navbar = () => {
+
   const navLinks = (
     <>
       <li>
@@ -31,12 +31,14 @@ const Navbar = () => {
         </ul>
 
         {/* Right Side Icon/Button  */}
-        <div className="hidden lg:block">
-          <button className="bg-white text-gray-800 p-4 rounded-full hover:bg-gray-200">
-            <GrCart />
+        <div className="hidden lg:flex items-center space-x-4 relative">
+          <button className="relative bg-white text-gray-800 p-4 rounded-full hover:bg-gray-200">
+            <GrCart className="text-xl" />
+            
           </button>
+
           <button className="bg-white text-gray-800 p-4 rounded-full hover:bg-gray-200">
-            <FaHeart />
+            <FaHeart className="text-xl" />
           </button>
         </div>
 
